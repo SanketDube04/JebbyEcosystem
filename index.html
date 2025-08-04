@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jebby Ecosystem - COEP Tech Student Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Jebby</span>
+                </div>
+                <span class="brand-tagline">Ecosystem</span>
+            </div>
+
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#notices" class="nav-link">Notices</a>
+                <!-- <a href="#services" class="nav-link">Services</a> -->
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="startBtn" class="cta-button">
+                    <i class="fas fa-user"></i>
+                    Sign In
+                </button>
+            </div>
+
+            <button id="mobileMenuBtn" class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#notices" class="nav-link">Notices</a>
+            <!-- <a href="#services" class="nav-link">Services</a> -->
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Screen -->
+    <div id="homeScreen" class="home-screen">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <div class="hero-pattern"></div>
+                <div class="hero-gradient"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Welcome to <span class="highlight">Jebby Ecosystem</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        A one-stop solution for every student need at COEP Tech
+                    </p>
+                    <p class="hero-description">
+                        Empowering COEP Technological University students with seamless access to campus services,
+                        academic resources, and community features. Built by students, for students.
+                    </p>
+
+                    <div class="hero-actions">
+                        <button id="exploreBtn" class="primary-btn">
+                            <i class="fas fa-compass"></i>
+                            Explore Services
+                        </button>
+                        <!-- <button id="demoBtn" class="secondary-btn">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </button> -->
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Services</span>
+                        </div>
+                        <!-- <div class="stat-item">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Students</span>
+                        </div> -->
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Available</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-pencil-alt"></i>
+                            <span>Stationery</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-share-alt"></i>
+                            <span>Notes</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Papers</span>
+                        </div>
+                        <div class="floating-card card-4">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Events</span>
+                        </div>
+                        <div class="floating-card card-5">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Mentorship</span>
+                        </div>
+                        <div class="floating-card card-6">
+                            <i class="fas fa-search"></i>
+                            <span>Lost & Found</span>
+                        </div>
+                        <div class="floating-card card-7">
+                            <i class="fas fa-comments"></i>
+                            <span>Forum</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notices Section -->
+        <section id="notices" class="notices-section">
+            <div class="container">
+                <div class="notices-header">
+                    <h2 class="notices-title">
+                        <i class="fas fa-bullhorn"></i>
+                        Daily Updates & Notices
+                    </h2>
+                    <p class="notices-subtitle">Stay updated with the latest campus announcements</p>
+                </div>
+
+                <div class="notices-container">
+                    <div class="notice-item urgent">
+                        <div class="notice-badge">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            URGENT
+                        </div>
+                        <div class="notice-content">
+                            <h3>Library Closure Notice</h3>
+                            <p>The main library will be closed tomorrow (Jan 16) from 2 PM to 6 PM for maintenance work. Please plan your study schedule accordingly.</p>
+                            <div class="notice-meta">
+                                <span class="notice-date">
+                                    <i class="fas fa-calendar"></i>
+                                    Today, 10:30 AM
+                                </span>
+                                <span class="notice-category">
+                                    <i class="fas fa-tag"></i>
+                                    Academic
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notice-item important">
+                        <div class="notice-badge">
+                            <i class="fas fa-star"></i>
+                            IMPORTANT
+                        </div>
+                        <div class="notice-content">
+                            <h3>Mess Menu Update</h3>
+                            <p>Special dinner menu today featuring South Indian cuisine. Timing: 7:00 PM - 9:30 PM. Don't miss the delicious dosa and sambar!</p>
+                            <div class="notice-meta">
+                                <span class="notice-date">
+                                    <i class="fas fa-calendar"></i>
+                                    Today, 9:15 AM
+                                </span>
+                                <span class="notice-category">
+                                    <i class="fas fa-tag"></i>
+                                    Food Services
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notice-item general">
+                        <div class="notice-badge">
+                            <i class="fas fa-info-circle"></i>
+                            INFO
+                        </div>
+                        <div class="notice-content">
+                            <h3>Tech Fest Registration Open</h3>
+                            <p>Registration for the annual Tech Fest 2024 is now open! Various competitions including coding, robotics, and innovation challenges. Register before Jan 20th.</p>
+                            <div class="notice-meta">
+                                <span class="notice-date">
+                                    <i class="fas fa-calendar"></i>
+                                    Yesterday, 4:45 PM
+                                </span>
+                                <span class="notice-category">
+                                    <i class="fas fa-tag"></i>
+                                    Events
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notice-item general">
+                        <div class="notice-badge">
+                            <i class="fas fa-info-circle"></i>
+                            INFO
+                        </div>
+                        <div class="notice-content">
+                            <h3>Bus Schedule Change</h3>
+                            <p>Due to road construction, the evening bus (Route 3) timing has been changed to 6:15 PM instead of 6:00 PM. This change is effective from today.</p>
+                            <div class="notice-meta">
+                                <span class="notice-date">
+                                    <i class="fas fa-calendar"></i>
+                                    Yesterday, 2:20 PM
+                                </span>
+                                <span class="notice-category">
+                                    <i class="fas fa-tag"></i>
+                                    Transport
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notices-footer">
+                    <button class="view-all-btn">
+                        <i class="fas fa-list"></i>
+                        View All Notices
+                    </button>
+                    <button class="add-notice-btn">
+                        <i class="fas fa-plus"></i>
+                        Submit Notice
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Demo Video Modal -->
+    <div id="demoModal" class="demo-modal hidden">
+        <div class="demo-modal-content">
+            <button class="demo-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="demo-video-wrapper">
+                <video id="demoVideo" controls preload="metadata" poster="">
+                    <source src="videos/demo-placeholder.mp4" type="video/mp4">
+                    <source src="videos/demo-placeholder.webm" type="video/webm">
+                    <p class="video-fallback">
+                        Your browser doesn't support HTML5 video.
+                        <a href="videos/demo-placeholder.mp4">Download the video</a> instead.
+                    </p>
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Page (Hidden initially) -->
+    <div id="servicesPage" class="services-page hidden">
+        <div class="services-header">
+            <button id="backToHomeBtn" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </button>
+            <h1 class="services-title">Student Services</h1>
+            <p class="services-subtitle">Everything you need for a seamless student life at COEP Tech</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Stationery -->
+            <div class="service-card" data-service="stationery">
+                <div class="card-icon">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <h3>Stationery Purchase</h3>
+                <p>Buy all your academic supplies online</p>
+            </div>
+
+            <!-- Notes Sharing -->
+            <div class="service-card" data-service="notes">
+                <div class="card-icon">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <h3>Notes Sharing</h3>
+                <p>Share and access study notes with peers</p>
+            </div>
+
+            <!-- Past Papers -->
+            <div class="service-card" data-service="papers">
+                <div class="card-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Past Exam Papers</h3>
+                <p>Access previous year question papers</p>
+            </div>
+
+            <!-- Event Registration & Club Promotion -->
+            <div class="service-card" data-service="events">
+                <div class="card-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3>Event Registration & Club Promotion</h3>
+                <p>Centralized platform for all COEP Tech events, club activities, and B.Tech branch-specific registrations</p>
+                <div class="card-badge">Featured</div>
+            </div>
+
+            <!-- Peer Mentorship -->
+            <div class="service-card" data-service="mentorship">
+                <div class="card-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>Peer Mentorship</h3>
+                <p>Connect with seniors for academic guidance</p>
+            </div>
+
+            <!-- Lost & Found -->
+            <div class="service-card" data-service="lost-found">
+                <div class="card-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Lost & Found</h3>
+                <p>Report lost items or find lost belongings</p>
+            </div>
+
+            <!-- Student Forum -->
+            <div class="service-card" data-service="forum">
+                <div class="card-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Student Forum</h3>
+                <p>Connect and discuss with fellow students</p>
+            </div>
+
+            <!-- Complaints -->
+            <div class="service-card" data-service="complaints">
+                <div class="card-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <h3>Complaint & Feedback</h3>
+                <p>Submit complaints and provide feedback</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign In/Sign Up Modal -->
+    <div id="authModal" class="auth-modal hidden">
+        <div class="auth-container">
+            <div class="auth-header">
+                <button class="auth-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Welcome to Jebby Ecosystem</h2>
+                <p>Sign in to access all student services</p>
+            </div>
+
+            <div class="auth-content">
+                <!-- Sign In Form -->
+                <div id="signInForm" class="auth-form">
+                    <h3>Sign In</h3>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="loginEmail">Email or Mobile Number</label>
+                            <input type="text" id="loginEmail" placeholder="Enter your email or mobile" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="loginOTP">OTP</label>
+                            <div class="otp-input-group">
+                                <input type="text" id="loginOTP" placeholder="Enter 6-digit OTP" maxlength="6" required>
+                                <button type="button" id="sendOTPBtn" class="send-otp-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send OTP
+                                </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="auth-submit-btn">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Sign In
+                        </button>
+                    </form>
+
+                    <div class="auth-switch">
+                        <p>Don't have an account? <button id="showSignUpBtn" class="switch-btn">Sign Up</button></p>
+                    </div>
+                </div>
+
+                <!-- Sign Up Form -->
+                <div id="signUpForm" class="auth-form hidden">
+                    <h3>Create Account</h3>
+                    <form id="registerForm">
+                        <div class="form-group">
+                            <label for="regName">Full Name</label>
+                            <input type="text" id="regName" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regEmail">Email Address</label>
+                            <input type="email" id="regEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regMobile">Mobile Number</label>
+                            <input type="tel" id="regMobile" placeholder="Enter your mobile number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regYear">Year of Study</label>
+                            <select id="regYear" required>
+                                <option value="">Select Year</option>
+                                <option value="1">First Year</option>
+                                <option value="2">Second Year</option>
+                                <option value="3">Third Year</option>
+                                <option value="4">Fourth Year</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="regBranch">Branch</label>
+                            <select id="regBranch" required>
+                                <option value="">Select Branch</option>
+                                <option value="computer">Computer Engineering</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="electrical">Electrical Engineering</option>
+                                <option value="civil">Civil Engineering</option>
+                                <option value="chemical">Chemical Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="regOTP">OTP</label>
+                            <div class="otp-input-group">
+                                <input type="text" id="regOTP" placeholder="Enter 6-digit OTP" maxlength="6" required>
+                                <button type="button" id="sendRegOTPBtn" class="send-otp-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send OTP
+                                </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="auth-submit-btn">
+                            <i class="fas fa-user-plus"></i>
+                            Create Account
+                        </button>
+                    </form>
+
+                    <div class="auth-switch">
+                        <p>Already have an account? <button id="showSignInBtn" class="switch-btn">Sign In</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Complaint & Feedback Modal -->
+    <div id="complaintModal" class="complaint-modal hidden">
+        <div class="complaint-container">
+            <div class="complaint-header">
+                <button class="complaint-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Complaint & Feedback</h2>
+                <p>Help us improve by sharing your concerns and suggestions</p>
+            </div>
+
+            <div class="complaint-content">
+                <form id="complaintForm" class="complaint-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaintType">Type</label>
+                            <select id="complaintType" required>
+                                <option value="">Select Type</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="suggestion">Suggestion</option>
+                                <option value="bug-report">Bug Report</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaintCategory">Category</label>
+                            <select id="complaintCategory" required>
+                                <option value="">Select Category</option>
+                                <option value="academic">Academic Services</option>
+                                <option value="food">Food Services</option>
+                                <option value="transport">Transportation</option>
+                                <option value="accommodation">Accommodation</option>
+                                <option value="technical">Technical Issues</option>
+                                <option value="staff">Staff Behavior</option>
+                                <option value="facilities">Campus Facilities</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaintPriority">Priority Level</label>
+                            <select id="complaintPriority" required>
+                                <option value="">Select Priority</option>
+                                <option value="low">Low</option>
+                                <option value="medium">Medium</option>
+                                <option value="high">High</option>
+                                <option value="urgent">Urgent</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaintLocation">Location (Optional)</label>
+                            <input type="text" id="complaintLocation"
+                                placeholder="e.g., Library, Canteen, Hostel Block A">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="complaintSubject">Subject</label>
+                        <input type="text" id="complaintSubject" placeholder="Brief description of the issue" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="complaintDescription">Detailed Description</label>
+                        <textarea id="complaintDescription" rows="5"
+                            placeholder="Please provide detailed information about your complaint or feedback..."
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="complaintAttachment">Attachment (Optional)</label>
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="complaintAttachment" accept="image/*,.pdf,.doc,.docx" multiple>
+                            <div class="file-upload-display">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Click to upload files or drag and drop</span>
+                                <small>Supported: Images, PDF, DOC, DOCX (Max 5MB each)</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="complaintAnonymous">
+                            <span class="checkmark"></span>
+                            Submit anonymously
+                        </label>
+                    </div>
+
+                    <div class="complaint-actions">
+                        <button type="button" class="secondary-btn" id="complaintCancelBtn">
+                            <i class="fas fa-times"></i>
+                            Cancel
+                        </button>
+                        <button type="submit" class="primary-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Submit
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Success Message -->
+                <div id="complaintSuccess" class="complaint-success hidden">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Thank You!</h3>
+                    <p>Your complaint/feedback has been submitted successfully.</p>
+                    <p class="ticket-info">Ticket ID: <span id="ticketId">#CF-2024-001</span></p>
+                    <p class="response-time">We'll respond within 24-48 hours.</p>
+                    <button class="primary-btn" id="complaintNewBtn">
+                        <i class="fas fa-plus"></i>
+                        Submit Another
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lost & Found Modal -->
+    <div id="lostFoundModal" class="lost-found-modal hidden">
+        <div class="lost-found-container">
+            <div class="lost-found-header">
+                <button class="lost-found-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Lost & Found</h2>
+                <p>Report lost items or help others find their belongings</p>
+            </div>
+
+            <div class="lost-found-content">
+                <!-- Tab Navigation -->
+                <div class="tab-navigation">
+                    <button class="tab-btn active" data-tab="search">
+                        <i class="fas fa-search"></i>
+                        Search Items
+                    </button>
+                    <button class="tab-btn" data-tab="report-lost">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Report Lost
+                    </button>
+                    <button class="tab-btn" data-tab="report-found">
+                        <i class="fas fa-hand-holding"></i>
+                        Report Found
+                    </button>
+                </div>
+
+                <!-- Search Tab -->
+                <div id="searchTab" class="tab-content active">
+                    <div class="search-section">
+                        <div class="search-bar">
+                            <input type="text" id="searchInput" placeholder="Search for lost items...">
+                            <button id="searchBtn" class="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+
+                        <div class="search-filters">
+                            <select id="categoryFilter">
+                                <option value="">All Categories</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="clothing">Clothing</option>
+                                <option value="accessories">Accessories</option>
+                                <option value="books">Books & Stationery</option>
+                                <option value="keys">Keys</option>
+                                <option value="bags">Bags & Wallets</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <select id="locationFilter">
+                                <option value="">All Locations</option>
+                                <option value="library">Library</option>
+                                <option value="canteen">Canteen</option>
+                                <option value="hostel">Hostel</option>
+                                <option value="classroom">Classroom</option>
+                                <option value="lab">Laboratory</option>
+                                <option value="playground">Playground</option>
+                                <option value="parking">Parking Area</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <select id="dateFilter">
+                                <option value="">Any Time</option>
+                                <option value="today">Today</option>
+                                <option value="week">This Week</option>
+                                <option value="month">This Month</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="search-results" id="searchResults">
+                        <div class="no-results">
+                            <i class="fas fa-search"></i>
+                            <h3>Search for Lost Items</h3>
+                            <p>Use the search bar above to find lost items reported by other students</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Report Lost Tab -->
+                <div id="reportLostTab" class="tab-content">
+                    <form id="reportLostForm" class="lost-found-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="lostItemName">Item Name *</label>
+                                <input type="text" id="lostItemName" placeholder="e.g., iPhone 13, Blue Backpack"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lostCategory">Category *</label>
+                                <select id="lostCategory" required>
+                                    <option value="">Select Category</option>
+                                    <option value="electronics">Electronics</option>
+                                    <option value="clothing">Clothing</option>
+                                    <option value="accessories">Accessories</option>
+                                    <option value="books">Books & Stationery</option>
+                                    <option value="keys">Keys</option>
+                                    <option value="bags">Bags & Wallets</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="lostLocation">Last Seen Location *</label>
+                                <select id="lostLocation" required>
+                                    <option value="">Select Location</option>
+                                    <option value="library">Library</option>
+                                    <option value="canteen">Canteen</option>
+                                    <option value="hostel">Hostel</option>
+                                    <option value="classroom">Classroom</option>
+                                    <option value="lab">Laboratory</option>
+                                    <option value="playground">Playground</option>
+                                    <option value="parking">Parking Area</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lostDate">Date Lost *</label>
+                                <input type="date" id="lostDate" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lostDescription">Description *</label>
+                            <textarea id="lostDescription" rows="4"
+                                placeholder="Provide detailed description including color, brand, distinctive features..."
+                                required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lostContactInfo">Contact Information *</label>
+                            <input type="text" id="lostContactInfo" placeholder="Your phone number or email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lostImage">Upload Image (Optional)</label>
+                            <div class="file-upload-wrapper">
+                                <input type="file" id="lostImage" accept="image/*">
+                                <div class="file-upload-display">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Click to upload an image</span>
+                                    <small>Supported: JPG, PNG (Max 5MB)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="lostCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-plus"></i>
+                                Report Lost Item
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Report Found Tab -->
+                <div id="reportFoundTab" class="tab-content">
+                    <form id="reportFoundForm" class="lost-found-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foundItemName">Item Name *</label>
+                                <input type="text" id="foundItemName" placeholder="e.g., iPhone 13, Blue Backpack"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="foundCategory">Category *</label>
+                                <select id="foundCategory" required>
+                                    <option value="">Select Category</option>
+                                    <option value="electronics">Electronics</option>
+                                    <option value="clothing">Clothing</option>
+                                    <option value="accessories">Accessories</option>
+                                    <option value="books">Books & Stationery</option>
+                                    <option value="keys">Keys</option>
+                                    <option value="bags">Bags & Wallets</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="foundLocation">Found Location *</label>
+                                <select id="foundLocation" required>
+                                    <option value="">Select Location</option>
+                                    <option value="library">Library</option>
+                                    <option value="canteen">Canteen</option>
+                                    <option value="hostel">Hostel</option>
+                                    <option value="classroom">Classroom</option>
+                                    <option value="lab">Laboratory</option>
+                                    <option value="playground">Playground</option>
+                                    <option value="parking">Parking Area</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="foundDate">Date Found *</label>
+                                <input type="date" id="foundDate" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="foundDescription">Description *</label>
+                            <textarea id="foundDescription" rows="4"
+                                placeholder="Provide detailed description including color, brand, distinctive features..."
+                                required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="foundContactInfo">Contact Information *</label>
+                            <input type="text" id="foundContactInfo" placeholder="Your phone number or email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="foundCurrentLocation">Current Location of Item *</label>
+                            <input type="text" id="foundCurrentLocation" placeholder="Where is the item currently kept?"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="foundImage">Upload Image (Optional)</label>
+                            <div class="file-upload-wrapper">
+                                <input type="file" id="foundImage" accept="image/*">
+                                <div class="file-upload-display">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Click to upload an image</span>
+                                    <small>Supported: JPG, PNG (Max 5MB)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="foundCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-hand-holding"></i>
+                                Report Found Item
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Success Message -->
+                <div id="lostFoundSuccess" class="lost-found-success hidden">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Successfully Submitted!</h3>
+                    <p id="successMessage">Your report has been submitted successfully.</p>
+                    <p class="reference-info">Reference ID: <span id="referenceId">#LF-2024-001</span></p>
+                    <p class="contact-info">We'll notify you if there are any matches or updates.</p>
+                    <button class="primary-btn" id="lostFoundNewBtn">
+                        <i class="fas fa-plus"></i>
+                        Submit Another Report
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Peer Mentorship Modal -->
+    <div id="mentorshipModal" class="mentorship-modal hidden">
+        <div class="mentorship-container">
+            <div class="mentorship-header">
+                <button class="mentorship-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Peer Mentorship</h2>
+                <p>Connect with seniors for academic guidance and support</p>
+            </div>
+
+            <div class="mentorship-content">
+                <!-- Tab Navigation -->
+                <div class="mentorship-tabs">
+                    <button class="mentorship-tab-btn active" data-tab="discover">
+                        <i class="fas fa-search"></i>
+                        Find Mentors
+                    </button>
+                    <button class="mentorship-tab-btn" data-tab="register">
+                        <i class="fas fa-user-plus"></i>
+                        Become Mentor
+                    </button>
+                </div>
+
+                <!-- Discover Mentors Tab -->
+                <div id="discoverTab" class="mentorship-tab-content active">
+                    <div class="mentor-filters">
+                        <select id="branchFilter">
+                            <option value="">All Branches</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="entc">Electronics & Telecom</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="instrumentation">Instrumentation</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="aiml">AI & ML</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="civil">Civil</option>
+                            <option value="metallurgy">Metallurgy</option>
+                        </select>
+                        <select id="yearFilter">
+                            <option value="">All Years</option>
+                            <option value="2">Second Year</option>
+                            <option value="3">Third Year</option>
+                            <option value="4">Fourth Year</option>
+                        </select>
+                        <input type="text" id="subjectFilter" placeholder="Search by subject...">
+                    </div>
+
+                    <div class="mentors-grid" id="mentorsGrid">
+                        <!-- Mentor cards will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Register as Mentor Tab -->
+                <div id="registerTab" class="mentorship-tab-content">
+                    <form id="mentorRegistrationForm" class="mentor-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mentorName">Full Name *</label>
+                                <input type="text" id="mentorName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mentorMIS">MIS Number *</label>
+                                <input type="text" id="mentorMIS" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mentorEmail">College Email *</label>
+                                <input type="email" id="mentorEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mentorYear">Year of Study *</label>
+                                <select id="mentorYear" required>
+                                    <option value="">Select Year</option>
+                                    <option value="2">Second Year</option>
+                                    <option value="3">Third Year</option>
+                                    <option value="4">Fourth Year</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mentorBranch">Branch *</label>
+                                <select id="mentorBranch" required>
+                                    <option value="">Select Branch</option>
+                                    <option value="cse">Computer Science</option>
+                                    <option value="entc">Electronics & Telecom</option>
+                                    <option value="electrical">Electrical</option>
+                                    <option value="instrumentation">Instrumentation</option>
+                                    <option value="mechanical">Mechanical</option>
+                                    <option value="aiml">AI & ML</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="civil">Civil</option>
+                                    <option value="metallurgy">Metallurgy</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mentorCGPA">CGPA *</label>
+                                <input type="number" id="mentorCGPA" step="0.01" min="0" max="10" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mentorSubjects">Subjects/Topics You Can Help With *</label>
+                            <input type="text" id="mentorSubjects" placeholder="e.g., DSA, DBMS, Signals & Systems" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mentorBio">Short Bio *</label>
+                            <textarea id="mentorBio" rows="3" placeholder="Tell us about yourself and your expertise..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mentorAvailability">Availability *</label>
+                            <textarea id="mentorAvailability" rows="2" placeholder="e.g., Weekdays 6-8 PM, Weekends flexible" required></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="mentorCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-user-plus"></i>
+                                Register as Mentor
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mentorship Request Modal -->
+    <div id="mentorshipRequestModal" class="mentorship-request-modal hidden">
+        <div class="request-container">
+            <div class="request-header">
+                <button class="request-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h3>Request Mentorship</h3>
+            </div>
+            <div class="request-content">
+                <form id="mentorshipRequestForm">
+                    <div class="mentor-info" id="selectedMentorInfo">
+                        <!-- Selected mentor info will be displayed here -->
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="requestSubject">Subject/Topic *</label>
+                        <input type="text" id="requestSubject" placeholder="What do you need help with?" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="requestMessage">Message *</label>
+                        <textarea id="requestMessage" rows="4" placeholder="Describe what you need help with..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="requestDateTime">Preferred Date & Time</label>
+                        <input type="datetime-local" id="requestDateTime">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="secondary-btn" id="requestCancelBtn">
+                            Cancel
+                        </button>
+                        <button type="submit" class="primary-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Events Modal -->
+    <div id="eventsModal" class="events-modal hidden">
+        <div class="events-container">
+            <div class="events-header">
+                <button class="events-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Event Registration & Club Promotion Hub</h2>
+                <p>Centralized platform for COEP Tech events, club activities, and B.Tech branch-specific registrations</p>
+            </div>
+
+            <div class="events-content">
+                <!-- Tab Navigation -->
+                <div class="events-tabs">
+                    <button class="events-tab-btn active" data-tab="discover">
+                        <i class="fas fa-search"></i>
+                        Discover Events
+                    </button>
+                    <button class="events-tab-btn" data-tab="create">
+                        <i class="fas fa-plus"></i>
+                        Create Event
+                    </button>
+                </div>
+
+                <!-- Discover Events Tab -->
+                <div id="discoverEventsTab" class="events-tab-content active">
+                    <div class="events-filters">
+                        <select id="eventTypeFilter">
+                            <option value="">All Types</option>
+                            <option value="technical">Technical</option>
+                            <option value="cultural">Cultural</option>
+                            <option value="sports">Sports</option>
+                            <option value="induction">Induction</option>
+                            <option value="workshop">Workshop</option>
+                        </select>
+                        <select id="eventClubFilter">
+                            <option value="">All Clubs</option>
+                            <option value="csi">CSI COEP</option>
+                            <option value="ieee">IEEE COEP</option>
+                            <option value="acm">ACM COEP</option>
+                            <option value="aerial">Aerial Robot Study Circle</option>
+                            <option value="cultural">Cultural Committee</option>
+                            <option value="sports">Sports Committee</option>
+                            <option value="mindspark">MindSpark</option>
+                            <option value="impressions">Impressions</option>
+                            <option value="zest">ZEST</option>
+                            <option value="regatta">Regatta</option>
+                        </select>
+                        <input type="text" id="eventSearchFilter" placeholder="Search events by name, club, or description...">
+                        <select id="branchFilter">
+                            <option value="">All Branches</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="entc">Electronics & Telecom</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="instrumentation">Instrumentation & Control</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="aiml">AI & ML</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="civil">Civil</option>
+                            <option value="metallurgy">Metallurgy</option>
+                        </select>
+                    </div>
+
+                    <div class="featured-events">
+                        <h3><i class="fas fa-star"></i> Featured Events</h3>
+                        <div class="featured-grid" id="featuredGrid">
+                            <!-- Featured events will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="all-events">
+                        <h3><i class="fas fa-calendar"></i> All Events</h3>
+                        <div class="events-grid" id="eventsGrid">
+                            <!-- Event cards will be populated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Create Event Tab -->
+                <div id="createEventsTab" class="events-tab-content">
+                    <form id="createEventForm" class="event-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="eventTitle">Event Title *</label>
+                                <input type="text" id="eventTitle" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="eventOrganizer">Organized By *</label>
+                                <input type="text" id="eventOrganizer" placeholder="Club/Department Name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="eventType">Event Type *</label>
+                                <select id="eventType" required>
+                                    <option value="">Select Type</option>
+                                    <option value="technical">Technical</option>
+                                    <option value="cultural">Cultural</option>
+                                    <option value="sports">Sports</option>
+                                    <option value="induction">Induction</option>
+                                    <option value="workshop">Workshop</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="eventVenue">Venue *</label>
+                                <input type="text" id="eventVenue" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="eventDateTime">Date & Time *</label>
+                                <input type="datetime-local" id="eventDateTime" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="eventDeadline">Registration Deadline *</label>
+                                <input type="datetime-local" id="eventDeadline" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventDescription">Description *</label>
+                            <textarea id="eventDescription" rows="4" placeholder="Describe your event..." required></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="eventMaxParticipants">Max Participants</label>
+                                <input type="number" id="eventMaxParticipants" min="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="eventPoster">Event Poster</label>
+                                <input type="file" id="eventPoster" accept="image/*">
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="eventCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-plus"></i>
+                                Create Event
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Registration Modal -->
+    <div id="eventRegistrationModal" class="event-registration-modal hidden">
+        <div class="registration-container">
+            <div class="registration-header">
+                <button class="registration-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h3>Event Registration</h3>
+            </div>
+            <div class="registration-content">
+                <div class="event-details" id="selectedEventDetails">
+                    <!-- Selected event details will be displayed here -->
+                </div>
+                
+                <form id="eventRegistrationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="regFullName">Full Name *</label>
+                            <input type="text" id="regFullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regMISNumber">MIS Number *</label>
+                            <input type="text" id="regMISNumber" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="regEmail">Email *</label>
+                            <input type="email" id="regEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regBranch">Branch *</label>
+                            <select id="regBranch" required>
+                                <option value="">Select Branch</option>
+                                <option value="cse">Computer Science</option>
+                                <option value="entc">Electronics & Telecom</option>
+                                <option value="mechanical">Mechanical</option>
+                                <option value="electrical">Electrical</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="regPhone">Phone Number</label>
+                        <input type="tel" id="regPhone">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="secondary-btn" id="regCancelBtn">
+                            Cancel
+                        </button>
+                        <button type="submit" class="primary-btn">
+                            <i class="fas fa-check"></i>
+                            Register Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notes Sharing Modal -->
+    <div id="notesModal" class="notes-modal hidden">
+        <div class="notes-container">
+            <div class="notes-header">
+                <button class="notes-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Notes Sharing</h2>
+                <p>Share and access study notes with your peers</p>
+            </div>
+
+            <div class="notes-content">
+                <!-- Tab Navigation -->
+                <div class="notes-tabs">
+                    <button class="notes-tab-btn active" data-tab="browse">
+                        <i class="fas fa-folder-open"></i>
+                        Browse Notes
+                    </button>
+                    <button class="notes-tab-btn" data-tab="upload">
+                        <i class="fas fa-upload"></i>
+                        Upload Notes
+                    </button>
+                </div>
+
+                <!-- Browse Notes Tab -->
+                <div id="browseTab" class="notes-tab-content active">
+                    <div class="notes-navigation">
+                        <div class="breadcrumb" id="notesBreadcrumb">
+                            <span class="breadcrumb-item active" data-level="branch">Select Branch</span>
+                        </div>
+                    </div>
+
+                    <div class="notes-grid" id="notesGrid">
+                        <!-- Branch/Semester/Subject cards will be populated here -->
+                    </div>
+
+                    <div class="notes-list hidden" id="notesList">
+                        <div class="notes-list-header">
+                            <h3 id="notesListTitle">Notes</h3>
+                            <div class="notes-search">
+                                <input type="text" id="notesSearchInput" placeholder="Search notes...">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="notes-items" id="notesItems">
+                            <!-- Individual notes will be populated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upload Notes Tab -->
+                <div id="uploadTab" class="notes-tab-content">
+                    <form id="uploadNotesForm" class="upload-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="uploadBranch">Branch *</label>
+                                <select id="uploadBranch" required>
+                                    <option value="">Select Branch</option>
+                                    <option value="cse">Computer Science and Engineering (CSE)</option>
+                                    <option value="entc">Electronics and Telecommunication (ENTC)</option>
+                                    <option value="electrical">Electrical Engineering</option>
+                                    <option value="instrumentation">Instrumentation and Control Engineering</option>
+                                    <option value="mechanical">Mechanical Engineering</option>
+                                    <option value="aiml">Artificial Intelligence & Machine Learning (AIML)</option>
+                                    <option value="manufacturing">Manufacturing Science and Engineering</option>
+                                    <option value="civil">Civil Engineering</option>
+                                    <option value="metallurgy">Metallurgy and Materials Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="uploadSemester">Semester *</label>
+                                <select id="uploadSemester" required>
+                                    <option value="">Select Semester</option>
+                                    <option value="1">Semester 1</option>
+                                    <option value="2">Semester 2</option>
+                                    <option value="3">Semester 3</option>
+                                    <option value="4">Semester 4</option>
+                                    <option value="5">Semester 5</option>
+                                    <option value="6">Semester 6</option>
+                                    <option value="7">Semester 7</option>
+                                    <option value="8">Semester 8</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadSubject">Subject *</label>
+                            <input type="text" id="uploadSubject" placeholder="e.g., Data Structures, Thermodynamics" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadTitle">Notes Title *</label>
+                            <input type="text" id="uploadTitle" placeholder="e.g., Chapter 1 - Introduction" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadContentType">Content Type *</label>
+                            <select id="uploadContentType" required>
+                                <option value="">Select Content Type</option>
+                                <option value="Lecture Notes">Lecture Notes</option>
+                                <option value="Tutorial">Tutorials/Assignments</option>
+                                <option value="Lab Manual">Lab Manuals</option>
+                                <option value="Formula Sheet">Important Formula Sheets / Cheat Sheets</option>
+                                <option value="PYQ Solutions">PYQs with Solutions</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadDescription">Description</label>
+                            <textarea id="uploadDescription" rows="3" placeholder="Brief description of the notes content..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadTags">Tags (Optional)</label>
+                            <input type="text" id="uploadTags" placeholder="e.g., 2024 Midsem, Sem 3 ENTC (comma separated)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uploadFile">Upload File *</label>
+                            <div class="file-upload-wrapper">
+                                <input type="file" id="uploadFile" accept=".pdf,.doc,.docx,.ppt,.pptx" required>
+                                <div class="file-upload-display">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>Click to upload notes or drag and drop</span>
+                                    <small>Supported: PDF, DOC, DOCX, PPT, PPTX (Max 10MB)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="uploadCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-upload"></i>
+                                Upload Notes
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Past Exam Papers Modal -->
+    <div id="papersModal" class="papers-modal hidden">
+        <div class="papers-container">
+            <div class="papers-header">
+                <button class="papers-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Past Exam Papers</h2>
+                <p>Access previous year question papers for exam preparation</p>
+            </div>
+
+            <div class="papers-content">
+                <!-- Tab Navigation -->
+                <div class="papers-tabs">
+                    <button class="papers-tab-btn active" data-tab="browse">
+                        <i class="fas fa-folder-open"></i>
+                        Browse Papers
+                    </button>
+                    <button class="papers-tab-btn" data-tab="upload">
+                        <i class="fas fa-upload"></i>
+                        Upload Paper
+                    </button>
+                </div>
+
+                <!-- Browse Papers Tab -->
+                <div id="browsePapersTab" class="papers-tab-content active">
+                    <div class="papers-navigation">
+                        <div class="breadcrumb" id="papersBreadcrumb">
+                            <span class="breadcrumb-item active" data-level="branch">Select Branch</span>
+                        </div>
+                    </div>
+
+                    <div class="papers-grid" id="papersGrid">
+                        <!-- Branch/Semester/Subject cards will be populated here -->
+                    </div>
+
+                    <div class="papers-list hidden" id="papersList">
+                        <div class="papers-list-header">
+                            <h3 id="papersListTitle">Exam Papers</h3>
+                            <div class="papers-filters">
+                                <select id="yearFilter">
+                                    <option value="">All Years</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                                <select id="examTypeFilter">
+                                    <option value="">All Exams</option>
+                                    <option value="midsem">Mid Semester</option>
+                                    <option value="endsem">End Semester</option>
+                                    <option value="insem">In Semester</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="papers-items" id="papersItems">
+                            <!-- Individual papers will be populated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upload Paper Tab -->
+                <div id="uploadPapersTab" class="papers-tab-content">
+                    <form id="uploadPaperForm" class="upload-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="paperBranch">Branch *</label>
+                                <select id="paperBranch" required>
+                                    <option value="">Select Branch</option>
+                                    <option value="cse">Computer Science and Engineering (CSE)</option>
+                                    <option value="entc">Electronics and Telecommunication (ENTC)</option>
+                                    <option value="electrical">Electrical Engineering</option>
+                                    <option value="instrumentation">Instrumentation and Control Engineering</option>
+                                    <option value="mechanical">Mechanical Engineering</option>
+                                    <option value="aiml">Artificial Intelligence & Machine Learning (AIML)</option>
+                                    <option value="manufacturing">Manufacturing Science and Engineering</option>
+                                    <option value="civil">Civil Engineering</option>
+                                    <option value="metallurgy">Metallurgy and Materials Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="paperSemester">Semester *</label>
+                                <select id="paperSemester" required>
+                                    <option value="">Select Semester</option>
+                                    <option value="1">Semester 1</option>
+                                    <option value="2">Semester 2</option>
+                                    <option value="3">Semester 3</option>
+                                    <option value="4">Semester 4</option>
+                                    <option value="5">Semester 5</option>
+                                    <option value="6">Semester 6</option>
+                                    <option value="7">Semester 7</option>
+                                    <option value="8">Semester 8</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="paperSubject">Subject *</label>
+                                <input type="text" id="paperSubject" placeholder="e.g., Data Structures, Thermodynamics" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="paperYear">Exam Year *</label>
+                                <select id="paperYear" required>
+                                    <option value="">Select Year</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="paperExamType">Exam Type *</label>
+                                <select id="paperExamType" required>
+                                    <option value="">Select Type</option>
+                                    <option value="midsem">Mid Semester</option>
+                                    <option value="endsem">End Semester</option>
+                                    <option value="insem">In Semester</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="paperDuration">Duration</label>
+                                <input type="text" id="paperDuration" placeholder="e.g., 3 hours">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paperFile">Upload Paper *</label>
+                            <div class="file-upload-wrapper">
+                                <input type="file" id="paperFile" accept=".pdf,.doc,.docx,.jpg,.png" required>
+                                <div class="file-upload-display">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>Click to upload exam paper or drag and drop</span>
+                                    <small>Supported: PDF, DOC, DOCX, JPG, PNG (Max 10MB)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="paperCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-upload"></i>
+                                Upload Paper
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Student Forum Modal -->
+    <div id="forumModal" class="forum-modal hidden">
+        <div class="forum-container">
+            <div class="forum-header">
+                <button class="forum-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2>Student Forum</h2>
+                <p>Connect, discuss, and share with your fellow students</p>
+            </div>
+
+            <div class="forum-content">
+                <!-- Tab Navigation -->
+                <div class="forum-tabs">
+                    <button class="forum-tab-btn active" data-tab="discussions">
+                        <i class="fas fa-comments"></i>
+                        Discussions
+                    </button>
+                    <button class="forum-tab-btn" data-tab="create">
+                        <i class="fas fa-plus"></i>
+                        New Post
+                    </button>
+                </div>
+
+                <!-- Discussions Tab -->
+                <div id="discussionsTab" class="forum-tab-content active">
+                    <div class="forum-filters">
+                        <select id="categoryFilter">
+                            <option value="">All Categories</option>
+                            <option value="academic">Academic</option>
+                            <option value="general">General Discussion</option>
+                            <option value="events">Events & Activities</option>
+                            <option value="tech">Tech Talk</option>
+                            <option value="placement">Placements</option>
+                            <option value="campus">Campus Life</option>
+                        </select>
+                        <select id="sortFilter">
+                            <option value="recent">Most Recent</option>
+                            <option value="popular">Most Popular</option>
+                            <option value="replies">Most Replies</option>
+                        </select>
+                        <input type="text" id="searchPosts" placeholder="Search discussions...">
+                    </div>
+
+                    <div class="discussions-list" id="discussionsList">
+                        <!-- Discussion threads will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Create Post Tab -->
+                <div id="createTab" class="forum-tab-content">
+                    <form id="createPostForm" class="post-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="postTitle">Title *</label>
+                                <input type="text" id="postTitle" placeholder="What's your discussion about?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="postCategory">Category *</label>
+                                <select id="postCategory" required>
+                                    <option value="">Select Category</option>
+                                    <option value="academic">Academic</option>
+                                    <option value="general">General Discussion</option>
+                                    <option value="events">Events & Activities</option>
+                                    <option value="tech">Tech Talk</option>
+                                    <option value="placement">Placements</option>
+                                    <option value="campus">Campus Life</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="postContent">Content *</label>
+                            <textarea id="postContent" rows="6" placeholder="Share your thoughts, ask questions, or start a discussion..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="postTags">Tags (Optional)</label>
+                            <input type="text" id="postTags" placeholder="e.g., exam, project, help (comma separated)">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="postAnonymous">
+                                <span class="checkmark"></span>
+                                Post anonymously
+                            </label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="secondary-btn" id="postCancelBtn">
+                                <i class="fas fa-times"></i>
+                                Cancel
+                            </button>
+                            <button type="submit" class="primary-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Post Discussion
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discussion Detail Modal -->
+    <div id="discussionModal" class="discussion-modal hidden">
+        <div class="discussion-container">
+            <div class="discussion-header">
+                <button class="discussion-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class="discussion-back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Forum
+                </button>
+            </div>
+            
+            <div class="discussion-content">
+                <div class="main-post" id="mainPost">
+                    <!-- Main discussion post will be populated here -->
+                </div>
+                
+                <div class="replies-section">
+                    <h3>Replies</h3>
+                    <div class="reply-form">
+                        <textarea id="replyContent" rows="3" placeholder="Share your thoughts..."></textarea>
+                        <button id="submitReply" class="primary-btn">
+                            <i class="fas fa-reply"></i>
+                            Reply
+                        </button>
+                    </div>
+                    <div class="replies-list" id="repliesList">
+                        <!-- Replies will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Built for COEP Tech Students</h2>
+                    <p>
+                        Jebby Ecosystem is a comprehensive student service platform designed specifically for
+                        COEP Technological University students. Our mission is to streamline campus life by
+                        providing easy access to essential services, fostering collaboration, and enhancing
+                        the overall student experience.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Fast & Efficient</h4>
+                            <p>Quick access to all campus services</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Secure & Reliable</h4>
+                            <p>Your data is safe with us</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Mobile First</h4>
+                            <p>Optimized for all devices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="student-collaboration">
+                        <i class="fas fa-users"></i>
+                        <h3>Student Collaboration</h3>
+                        <p>Connect, share, and grow together</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Have questions or suggestions? We'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@jebbyecosystem.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>COEP Technological University, Pune</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Support Hours</h4>
+                            <p>24/7 Available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Jebby Ecosystem</span>
+                    </div>
+                    <p>A one-stop solution for every student need at COEP Tech</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <!-- <li><a href="#services">Food Delivery</a></li> -->
+                            <li><a href="#services">Stationery</a></li>
+                            <li><a href="#services">Notes Sharing</a></li>
+                            <li><a href="#services">Peer Mentorship</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Student Forum</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jebby Ecosystem. Created by COEP Tech students for COEP Tech students.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
